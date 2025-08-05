@@ -1,0 +1,17 @@
+﻿
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: "db"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "123"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data  # Исправлена опечатка в пути
+    ports:
+      - "5433:5433"
+
+
+volumes:
+  postgres-data:  # Исправлено название (было postgrees-data)

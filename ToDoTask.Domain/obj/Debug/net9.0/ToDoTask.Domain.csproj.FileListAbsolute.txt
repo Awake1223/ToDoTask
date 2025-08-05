@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\ToDoTask\ToDoTask.Domain\bin\Debug\net9.0\ToDoTask.Domain.deps.json
+C:\Users\User\source\repos\ToDoTask\ToDoTask.Domain\bin\Debug\net9.0\ToDoTask.Domain.dll
+C:\Users\User\source\repos\ToDoTask\ToDoTask.Domain\bin\Debug\net9.0\ToDoTask.Domain.pdb
+C:\Users\User\source\repos\ToDoTask\ToDoTask.Domain\obj\Debug\net9.0\ToDoTask.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\ToDoTask\ToDoTask.Domain\obj\Debug\net9.0\ToDoTask.Domain.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ToDoTask\ToDoTask.Domain\obj\Debug\net9.0\ToDoTask.Domain.AssemblyInfo.cs
+C:\Users\User\source\repos\ToDoTask\ToDoTask.Domain\obj\Debug\net9.0\ToDoTask.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ToDoTask\ToDoTask.Domain\obj\Debug\net9.0\ToDoTask.Domain.dll
+C:\Users\User\source\repos\ToDoTask\ToDoTask.Domain\obj\Debug\net9.0\refint\ToDoTask.Domain.dll
+C:\Users\User\source\repos\ToDoTask\ToDoTask.Domain\obj\Debug\net9.0\ToDoTask.Domain.pdb
+C:\Users\User\source\repos\ToDoTask\ToDoTask.Domain\obj\Debug\net9.0\ref\ToDoTask.Domain.dll
