@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Правильная регистрация DbContext с параметрами
 builder.Services.AddDbContext<ToDoTaskDBContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString(nameof(ToDoTaskDBContext)))); // Или другой провайдер БД
+    options.UseNpgsql(builder.Configuration.GetConnectionString(nameof(ToDoTaskDBContext)))); // Или другой провайдер БД
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer(); // Добавьте это для Swagger
