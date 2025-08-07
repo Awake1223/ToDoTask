@@ -1,6 +1,8 @@
 using ToDoTask.DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
 using ToDoTask.DataAccess;
+using ToDoTask.Application.Services;
+using ToDoTask.DataAccess.Reposotories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,8 @@ builder.Services.AddDbContext<ToDoTaskDBContext>(options =>
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer(); // Добавьте это для Swagger
 builder.Services.AddSwaggerGen(); // Вместо AddOpenApi()
+builder.Services.AddScoped<IToDoTaskService, ToDoTaskService>();
+builder.Services.AddScoped<IToDoTaskReposotory, ToDoTaskReposotory>();
 
 var app = builder.Build();
 
